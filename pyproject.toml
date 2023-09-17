@@ -9,8 +9,8 @@ description = "package to deal with getting and manipulating"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { file = "LICENSE" }
-authors = { name = "Rob Wolfe - Port Wallis Technologies", email = "rwolfe@portwallistechnologies.com" }
-maintainers = { name = "Rob Wolfe - Port Wallis Technologies", email = "rwolfe@portwallistechnologies.com" }
+authors = [{ name = "Rob Wolfe - Port Wallis Technologies", email = "rwolfe@portwallistechnologies.com" }]
+maintainers = [{ name = "Rob Wolfe - Port Wallis Technologies", email = "rwolfe@portwallistechnologies.com" }]
 keywords = []
 classifiers = [
     "Development Status :: 2 - Pre-Alpha",
