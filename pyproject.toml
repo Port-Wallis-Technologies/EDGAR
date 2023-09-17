@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "EDGAR"
+version = "2023.09.01"
+description = "package to deal with getting and manipulating"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = { name = "Rob Wolfe - Port Wallis Technologies", email = "rwolfe@portwallistechnologies.com" }
+maintainers = { name = "Rob Wolfe - Port Wallis Technologies", email = "rwolfe@portwallistechnologies.com" }
+keywords = []
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Framework :: FastAPI",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+dependencies = ["requests", "psycopg[binary]"]
+
+[project.urls]
+Homepage = "https://edgar.portwallistechnologies.io"
+Documentation = "https://edgar.portwallistechnologies/docs"
+Repository = "https://github.com/Port-Wallis-Technologies/EDGAR.git"
+Changelog = "https://github.com/Port-Wallis-Technologies/EDGAR/blob/master/CHANGELOG.md"
